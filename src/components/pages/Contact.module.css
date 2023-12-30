@@ -1,0 +1,78 @@
+.contact_container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 4em;
+}
+
+.contact_container h1 {
+    margin-bottom: 0.5em;
+}
+
+.contact_container h3 {
+    margin: 1em;
+    font-size: 1.5em;
+    padding: 0.5em 1em;
+    background-color: #333;
+    color: #FFBB33;
+    border-radius: 5px;
+    
+}
+
+.contact_container p {
+    font-size: 1em;
+    margin-top: 2em;
+    font-weight: bold;
+    padding: 0.5em 1em;
+    background-color: #333;
+    color: #FFBB33;
+    border-radius: 3px;
+}
+
+.contact_container form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1.5em;
+}
+
+.contact_container .linha {
+    display: block;
+    /* flex-direction: column; */
+    align-items: center;
+    justify-content: center;
+    background-color: #333;
+    width: 40%;
+    height: 1px;
+}
+
+.social_list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    list-style-type: none;
+
+
+}
+
+.social_list li {
+    margin: 0 1em;
+    
+}
+
+.social_list li:hover {
+    color: #FFBB33;
+}
+
+.social_list span {
+    font-weight: bold;
+    font-size: 1em;
+}
+
+.social_list svg {
+    font-size: 1em;
+    cursor: pointer;
+}

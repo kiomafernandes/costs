@@ -1,0 +1,28 @@
+.company_container {
+    width: 100%;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.5em;
+}
+
+.company_container h1 {
+    padding: 1.5em;
+}
+
+.company_container p {
+    max-width: 80%;
+    margin: 1em;
+    text-align: justify;
+    font-size: 1.5em;
+}
+
+.company_container .linha {
+    display: block;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffbb33;
+    width: 80%;
+    height: 2px;
+}
